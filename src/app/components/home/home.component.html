@@ -1,6 +1,5 @@
 <p>home works!</p>
 
-<!-- Container to fill up the white space untill content is created -->
-<div class="container" style="padding-top: 600px;">
-    
-</div>
+<p *ngFor="let standings of (standings | async)">
+    {{standings.Driver.driverId}}
+</p>
