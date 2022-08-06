@@ -1,4 +1,4 @@
-const f1_api_url = 'http://ergast.com/api/f1/current/driverStandings.json'
+const f1_api_url = 'https://ergast.com/api/f1/current/driverStandings.json'
 var Arr = new Array();
 var test;
 
